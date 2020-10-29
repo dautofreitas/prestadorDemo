@@ -1,5 +1,7 @@
 package com.dautofreitas.prestadorDemo.integration;
 
-public class GoogleMapsIntegrationImp implements GoogleMapsIntegration {
+import java.util.List;
 
+public class GoogleMapsIntegrationImp implements GoogleMapsIntegration {
+	List<GoogleMapsResultDto> obterDistancias(List<GoogleMapsRequestDistanciaDto> googleRequests);
 }
