@@ -6,5 +6,5 @@ import com.dautofreitas.prestadorDemo.dto.GoogleMapsRequestDistanciaDto;
 import com.dautofreitas.prestadorDemo.dto.GoogleMapsResultDto;
 
 public interface GoogleMapsIntegration {
-	List<GoogleMapsResultDto> obterDistancias(List<GoogleMapsRequestDistanciaDto> googleRequests);
+	List<GoogleMapsResultDto> obterDistancias(GoogleMapsRequestDistanciaDto googleMapsRequestDistancia);
 }

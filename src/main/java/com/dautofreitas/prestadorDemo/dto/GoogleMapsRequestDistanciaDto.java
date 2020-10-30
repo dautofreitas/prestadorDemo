@@ -1,11 +1,16 @@
 package com.dautofreitas.prestadorDemo.dto;
 
+import java.util.List;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class GoogleMapsRequestDistanciaDto {
-	private int id;
-	private double latitude;
-	private double longitude;
+	
+	private double latitudeAtual;
+	private double longitudeAtual;
+	List<GoogleMapsPontoDto> pontos;
 	
 }
